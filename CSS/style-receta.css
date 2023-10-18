@@ -1,0 +1,31 @@
+/*********************************************/
+/*     Hoja de estilo receta salmorejo       */
+/*      Iván Caro Romero                     */
+/*********************************************/
+@font-face {
+    font-family: titulo;
+    src: url(../FONTS/Breston\ Oblique.otf);
+}
+@font-face {
+    font-family: texto;
+    src: url(../FONTS/SLABS\ THIN.otf);
+}
+body{font-family: texto;
+    background-image: url(../IMG/fondo.jfif);}
+#wrapper{width: 60vw;
+    background-color: #7f634a;
+    margin: auto;
+    width: 80%;}
+h1, h2{text-align: center;
+    color: #F58E03;
+    font-family: titulo;
+    font-size: 250%;
+    border-bottom: 2px solid #B1301C;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 90px;}
+#largo{margin-left: 23vw;
+    margin-right: 23vw;}
+#corto{margin-left: 33vw;
+    margin-right: 33vw;}
+
