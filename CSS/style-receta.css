@@ -8,14 +8,27 @@
 }
 @font-face {
     font-family: texto;
-    src: url(../FONTS/SLABS\ THIN.otf);
+    src: url(../FONTS/magnisa-sans.regular.ttf);
 }
 body{font-family: texto;
     background-image: url(../IMG/fondo.jfif);}
 #wrapper{width: 60vw;
     background-color: #7f634a;
     margin: auto;
-    width: 80%;}
+    width: 80%;
+    padding-top: 2%;
+    padding-bottom: 5%;}
+    #nota {text-align: center;
+        font-size: 150%;
+        color: #D8C4B6;}
+    #lista {font-size: 130%;
+        padding-left: 35%;
+        color: #D8C4B6;}
+    #proceso {font-size: 120%;
+        text-align: center;
+        color: #D8C4B6;
+        padding-left: 20%;
+        padding-right: 20%;}
 h1, h2{text-align: center;
     color: #F58E03;
     font-family: titulo;
